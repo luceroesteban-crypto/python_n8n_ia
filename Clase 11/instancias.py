@@ -9,7 +9,7 @@ class PartyAnimal:
      self.x = self.x + 1
      print(self.name,"recuento",self.x)
 
-s = PartyAnimal("OMAR")
+s = PartyAnimal("ESTEBAN")
 j = PartyAnimal("JUAN")
 
 s.party()
