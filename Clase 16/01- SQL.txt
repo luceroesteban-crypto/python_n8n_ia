@@ -1,0 +1,26 @@
+CREATE TABLE estudiantes (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(50),
+    edad INT,
+    curso VARCHAR(50)
+);
+
+
+INSERT INTO estudiantes (id, nombre, edad, curso)
+VALUES (1, 'Ana', 20, 'Matemáticas'),
+       (2, 'Juan', 22, 'Historia'),
+       (3, 'Maria', 21, 'Física');
+
+SELECT * FROM estudiantes;
+
+SELECT * FROM estudiantes WHERE edad > 20;
+
+UPDATE estudiantes SET curso = 'Literatura' WHERE nombre = 'Juan';
+
+DELETE FROM estudiantes WHERE id = 3;
+
+SELECT COUNT(*) FROM estudiantes;
+
+SELECT * FROM estudiantes ORDER BY edad ASC;
+
+SELECT AVG(edad) AS edad_promedio FROM estudiantes;

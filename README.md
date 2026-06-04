@@ -1,33 +1,35 @@
 # python_n8n_ia
-Curso de Python y n8n con IA - 28 clases Feb 2026
 
-## Clase 11 - Introducción a la Programación Orientada a Objetos y Uso de Git
+Repositorio de prácticas y ejercicios del curso de **Python, n8n e IA**.
 
-### Descripción
-En esta clase se introducen los conceptos fundamentales de la **Programación Orientada a Objetos (POO)** en Python, una metodología de programación que permite organizar el código de manera más modular, reutilizable y mantenible.
+## Descripción general
+Este proyecto reúne ejemplos, ejercicios y mini aplicaciones desarrolladas durante las clases del curso. El objetivo es consolidar conceptos de programación en Python, automatización con n8n y conectividad con bases de datos y servicios de IA.
 
-### Temas Cubiertos
+## Estructura del repositorio
 
-#### Programación Orientada a Objetos (POO)
-- **Conceptos Fundamentales:**
-  - Clases e instancias
-  - Atributos y métodos
-  - Encapsulación
-  
-- **Práctica con Ejemplos:**
-  - Creación de clases simples
-  - Uso de instancias de objetos
-  - Interacción entre objetos
+- `Clase 11/`: introducción a POO, clases, instancias, objetos y uso básico de Git.
+- `Clase 12/`: herencia, polimorfismo, atributos de clase, encapsulación y ejercicios prácticos.
+- `Clase 14/`: manejo de archivos, CSV, JSON y ejercicios de lectura/escritura.
+- `Clase 15/`: introducción a SQL y SQLite.
+- `Clase 16/`: SQL, SQLite, MySQL, DAO y ORM.
+- `Clase 17/`: funciones lambda, ordenamiento, map/filter y ejemplos de interfaces gráficas con Tkinter.
 
-#### Uso de Git
-- Fundamentos de control de versiones
-- Comandos básicos de Git
-- Gestión de repositorios
-- Trabajo colaborativo con Git
+## Objetivos del curso
+- Comprender fundamentos de Python.
+- Aplicar conceptos de programación orientada a objetos.
+- Automatizar tareas con n8n.
+- Integrar bases de datos y servicios externos.
+- Explorar aplicaciones básicas de IA y automatización.
 
-### Archivos de Práctica
-- `instancias.py` - Trabajo con instancias de clases
-- `party.py` - Ejemplo de aplicación con objetos
-- `party2.py` - Extensión del ejemplo anterior
-- `desafio1.py` - Desafío de programación OOP
-- `desafio2.py` - Desafío adicional de programación OOP
+## Cómo usar este repositorio
+1. Navega por la carpeta de la clase correspondiente.
+2. Abre los archivos de práctica y ejecútalos con Python.
+3. Revisa los ejemplos para comprender la lógica antes de modificar el código.
+4. Usa este material como base para tus propios proyectos y ejercicios.
+
+## Notas
+- El contenido está organizado por clases para facilitar el seguimiento del curso.
+- Algunas carpetas incluyen archivos de ejemplo, desafíos y soluciones de práctica.
+
+## Estado del proyecto
+Este repositorio está en constante actualización conforme avanzan las clases del curso.
