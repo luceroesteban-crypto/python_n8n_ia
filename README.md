@@ -12,7 +12,8 @@ Este proyecto reúne ejemplos, ejercicios y mini aplicaciones desarrolladas dura
 - `Clase 14/`: manejo de archivos, CSV, JSON y ejercicios de lectura/escritura.
 - `Clase 15/`: introducción a SQL y SQLite.
 - `Clase 16/`: SQL, SQLite, MySQL, DAO y ORM.
-- `Clase 17/`: funciones lambda, ordenamiento, map/filter y ejemplos de interfaces gráficas con Tkinter.
+- `Clase 17/`: funciones lambda, ordenamiento, map/filter, ejemplos de interfaces gráficas con Tkinter y acceso a MySQL.
+- `Clase 18/`: introducción al desarrollo web, ampliación de la aplicación web y ejemplos de formularios HTML/CSS.
 
 ## Objetivos del curso
 - Comprender fundamentos de Python.

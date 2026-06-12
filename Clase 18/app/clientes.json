@@ -1,0 +1,177 @@
+[
+    {
+        "nombre": "Juan Pérez",
+        "email": "juan@email.com",
+        "telefono": "555-0001"
+    },
+    {
+        "nombre": "María García",
+        "email": "maria@email.com",
+        "telefono": "555-0002"
+    },
+    {
+        "nombre": "Carlos López",
+        "email": "carlos@email.com",
+        "telefono": "555-0003"
+    },
+    {
+        "nombre": "Ana Martínez",
+        "email": "ana@email.com",
+        "telefono": "555-0004"
+    },
+    {
+        "nombre": "Pedro Sánchez",
+        "email": "pedro@email.com",
+        "telefono": "555-0005"
+    },
+    {
+        "nombre": "Laura Rodríguez",
+        "email": "laura@email.com",
+        "telefono": "555-0006"
+    },
+    {
+        "nombre": "Miguel Fernández",
+        "email": "miguel@email.com",
+        "telefono": "555-0007"
+    },
+    {
+        "nombre": "Sofía Torres",
+        "email": "sofia@email.com",
+        "telefono": "555-0008"
+    },
+    {
+        "nombre": "Diego Ramírez",
+        "email": "diego@email.com",
+        "telefono": "555-0009"
+    },
+    {
+        "nombre": "Carmen Morales",
+        "email": "carmen@email.com",
+        "telefono": "555-0010"
+    },
+    {
+        "nombre": "Javier Ruiz",
+        "email": "javier@email.com",
+        "telefono": "555-0011"
+    },
+    {
+        "nombre": "Isabel Jiménez",
+        "email": "isabel@email.com",
+        "telefono": "555-0012"
+    },
+    {
+        "nombre": "Roberto Díaz",
+        "email": "roberto@email.com",
+        "telefono": "555-0013"
+    },
+    {
+        "nombre": "Patricia Herrera",
+        "email": "patricia@email.com",
+        "telefono": "555-0014"
+    },
+    {
+        "nombre": "Fernando Castro",
+        "email": "fernando@email.com",
+        "telefono": "555-0015"
+    },
+    {
+        "nombre": "Lucía Ortega",
+        "email": "lucia@email.com",
+        "telefono": "555-0016"
+    },
+    {
+        "nombre": "Andrés Medina",
+        "email": "andres@email.com",
+        "telefono": "555-0017"
+    },
+    {
+        "nombre": "Elena Vargas",
+        "email": "elena@email.com",
+        "telefono": "555-0018"
+    },
+    {
+        "nombre": "Ricardo Ramos",
+        "email": "ricardo@email.com",
+        "telefono": "555-0019"
+    },
+    {
+        "nombre": "Beatriz Silva",
+        "email": "beatriz@email.com",
+        "telefono": "555-0020"
+    },
+    {
+        "nombre": "Gabriel Romero",
+        "email": "gabriel@email.com",
+        "telefono": "555-0021"
+    },
+    {
+        "nombre": "Victoria Flores",
+        "email": "victoria@email.com",
+        "telefono": "555-0022"
+    },
+    {
+        "nombre": "Héctor Navarro",
+        "email": "hector@email.com",
+        "telefono": "555-0023"
+    },
+    {
+        "nombre": "Raquel Molina",
+        "email": "raquel@email.com",
+        "telefono": "555-0024"
+    },
+    {
+        "nombre": "Alberto Cruz",
+        "email": "alberto@email.com",
+        "telefono": "555-0025"
+    },
+    {
+        "nombre": "Marina Delgado",
+        "email": "marina@email.com",
+        "telefono": "555-0026"
+    },
+    {
+        "nombre": "Óscar Moreno",
+        "email": "oscar@email.com",
+        "telefono": "555-0027"
+    },
+    {
+        "nombre": "Natalia Suárez",
+        "email": "natalia@email.com",
+        "telefono": "555-0028"
+    },
+    {
+        "nombre": "Pablo Reyes",
+        "email": "pablo@email.com",
+        "telefono": "555-0029"
+    },
+    {
+        "nombre": "Cristina Vega",
+        "email": "cristina@email.com",
+        "telefono": "555-0030"
+    },
+    {
+        "nombre": "Adrián Mendoza",
+        "email": "adrian@email.com",
+        "telefono": "555-0031"
+    },
+    {
+        "nombre": "Silvia Campos",
+        "email": "silvia@email.com",
+        "telefono": "555-0032"
+    },
+    {
+        "nombre": "Martín Guerra",
+        "email": "martin@email.com",
+        "telefono": "555-0033"
+    },
+    {
+        "nombre": "Diana Cortés",
+        "email": "diana@email.com",
+        "telefono": "555-0034"
+    },
+    {
+        "nombre": "Tomás Guerrero",
+        "email": "tomas@email.com",
+        "telefono": "555-0035"
+    }
+]
