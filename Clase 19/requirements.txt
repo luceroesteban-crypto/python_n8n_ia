@@ -1,0 +1,7 @@
+# Dependencias externas de la Clase 19
+# Instalar con:  pip install -r requirements.txt
+#
+# Nota: sqlite3, json, time y os ya vienen incluidos en Python,
+# por eso NO se listan aquí (no se instalan con pip).
+
+Flask

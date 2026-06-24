@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {# Plantilla BASE: las demás páginas la heredan con {% extends %} y rellenan los bloques #}
+    {# {% block title %} es un hueco que cada página hija completará con su propio título #}
+    <title>{% block title %}{% endblock %} - Gestión de Clientes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            {# url_for('index') genera la URL de la función 'index' de Flask (evita escribir la ruta a mano) #}
+            <a class="navbar-brand" href="{{ url_for('index') }}">Gestión de Clientes</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        {# Mostramos los mensajes flash enviados desde Flask (éxito o error) #}
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {# Recorremos cada mensaje; 'category' define el color de la alerta #}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        {# Aquí cada página hija inyecta su contenido principal #}
+        {% block content %}{% endblock %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
