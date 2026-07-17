@@ -1,0 +1,8 @@
+{% for cliente in clientes %}
+<tr class="cliente-row" data-id="{{ cliente.id }}" data-nombre="{{ cliente.nombre }}" data-email="{{ cliente.email }}" data-telefono="{{ cliente.telefono }}" style="cursor: pointer;">
+    <td>{{ cliente.id }}</td>
+    <td>{{ cliente.nombre }}</td>
+    <td>{{ cliente.email }}</td>
+    <td>{{ cliente.telefono }}</td>
+</tr>
+{% endfor %}

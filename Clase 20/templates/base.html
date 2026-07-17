@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block titulo %}{% endblock %} - Mi Sitio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        nav {
+            background: #2c3e50;
+            padding: 15px 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 25px;
+            min-height: 60vh;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #34495e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">Inicio</a> | <a href="/perfil">Perfil</a>
+    </nav>
+    <main>
+        {% block contenido %}{% endblock %}
+    </main>
+    <footer>
+        &copy; 2025 Mi Empresa.
+    </footer>
+</body>
+</html>

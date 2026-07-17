@@ -1,0 +1,20 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos generada por la app (se recrea sola desde schema.sql)
+clientes.db
+
+# Archivos de configuracion de editores/IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store

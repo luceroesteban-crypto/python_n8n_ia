@@ -1,0 +1,5 @@
+# google-generativeai  # Obsoleta
+google-genai
+openai
+python-dotenv
+groq

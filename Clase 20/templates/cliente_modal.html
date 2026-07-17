@@ -1,0 +1,43 @@
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <div class="d-flex align-items-center mb-4">
+            <div class="me-3">
+                <!-- SVG Avatar dinámico con gradiente variable según el ID del cliente en Jinja2 -->
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="rounded-circle shadow-sm">
+                    <rect width="64" height="64" rx="32" fill="url(#avatarGradiente-{{ cliente.id }})"/>
+                    <circle cx="32" cy="24" r="10" fill="#FFFFFF"/>
+                    <path d="M14 48C14 39.1634 22.0589 32 32 32C41.9411 32 50 39.1634 50 48" fill="#FFFFFF"/>
+                    <defs>
+                        <linearGradient id="avatarGradiente-{{ cliente.id }}" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+                            {% if cliente.id % 3 == 0 %}
+                            <stop stop-color="#4F46E5"/>
+                            <stop offset="1" stop-color="#7C3AED"/>
+                            {% elif cliente.id % 3 == 1 %}
+                            <stop stop-color="#0EA5E9"/>
+                            <stop offset="1" stop-color="#2563EB"/>
+                            {% else %}
+                            <stop stop-color="#10B981"/>
+                            <stop offset="1" stop-color="#059669"/>
+                            {% endif %}
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div>
+                <h5 class="mb-0 text-dark fw-bold">{{ cliente.nombre }}</h5>
+                <span class="badge bg-light text-secondary border">Cliente #{{ cliente.id }}</span>
+            </div>
+        </div>
+        <hr>
+        <div class="row g-3">
+            <div class="col-12">
+                <label class="form-label text-secondary small fw-bold">Correo Electrónico</label>
+                <p class="mb-0"><a href="mailto:{{ cliente.email }}" class="text-decoration-none">{{ cliente.email }}</a></p>
+            </div>
+            <div class="col-12">
+                <label class="form-label text-secondary small fw-bold">Teléfono de Contacto</label>
+                <p class="mb-0 text-dark">{{ cliente.telefono }}</p>
+            </div>
+        </div>
+    </div>
+</div>
