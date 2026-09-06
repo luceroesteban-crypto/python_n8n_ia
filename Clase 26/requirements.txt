@@ -1,0 +1,11 @@
+langchain
+langchain-classic
+langchain-pymupdf4llm
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+chromadb
+sentence-transformers
+rank-bm25
+openai
+python-dotenv

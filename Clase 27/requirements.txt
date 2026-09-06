@@ -1,0 +1,13 @@
+langchain
+langchain-classic
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langchain-pymupdf4llm
+langchain-google-genai
+chromadb
+sentence-transformers
+rank-bm25
+gradio
+python-dotenv
+
